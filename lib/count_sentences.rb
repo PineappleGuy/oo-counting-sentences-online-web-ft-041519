@@ -4,7 +4,7 @@ class String
 #attr_reader :sentence?, :question?, :exclamation?, :count_sentences
 
   def sentence?
-    if self.end_with(".") == true
+    if self.end_with?(".") == true
       true
     else
       false
@@ -12,7 +12,7 @@ class String
   end
 
   def question?
-    if self.end_with("?") == true
+    if self.end_with?("?") == true
       true
     else
       false
@@ -20,7 +20,7 @@ class String
   end
 
   def exclamation?
-    if self.end_with("!") == true
+    if self.end_with?("!") == true
       true
     else
       false
