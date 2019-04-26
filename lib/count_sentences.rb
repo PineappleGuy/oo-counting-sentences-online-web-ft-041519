@@ -1,7 +1,7 @@
 require 'pry'
 
 class String
-attr_reader :sentence?, :question?, :exclamation?, :count_sentences
+#attr_reader :sentence?, :question?, :exclamation?, :count_sentences
 
   def sentence?
     if self.end_with(".") == true
