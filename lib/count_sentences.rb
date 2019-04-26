@@ -31,4 +31,3 @@ attr_reader :sentence?, :question?, :exclamation?, :count_sentences
 
   end
 end
-
