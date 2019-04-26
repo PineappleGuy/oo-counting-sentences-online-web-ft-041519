@@ -5,25 +5,25 @@ attr_reader :sentence?, :question?, :exclamation?, :count_sentences
 
   def sentence?
     if self.end_with(".") == true
-      return true
+      true
     else
-      return false
+      false
     end
   end
 
   def question?
     if self.end_with("?") == true
-      return true
+      true
     else
-      return false
+      false
     end
   end
 
   def exclamation?
     if self.end_with("!") == true
-      return true
+      true
     else
-      return false
+      false
     end
   end
 
